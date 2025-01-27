@@ -16,30 +16,9 @@ interface ExperienceProps {
 
 export function Experience({ t }: ExperienceProps) {
   const experiences: CompanyExperience[] = [
-    {
-      name: t.experience.company.tarro.name,
-      position: t.experience.company.tarro.position,
-      period: t.experience.company.tarro.period,
-      responsibilities: t.experience.company.tarro.responsibilities,
-      logoUrl: t.experience.company.tarro.logoUrl,
-      linkUrl: t.experience.company.tarro.linkUrl,
-    },
-    {
-      name: t.experience.company.shopee.name,
-      position: t.experience.company.shopee.position,
-      period: t.experience.company.shopee.period,
-      responsibilities: t.experience.company.shopee.responsibilities,
-      logoUrl: t.experience.company.shopee.logoUrl,
-      linkUrl: t.experience.company.shopee.linkUrl,
-    },
-    {
-      name: t.experience.company.huawei.name,
-      position: t.experience.company.huawei.position,
-      period: t.experience.company.huawei.period,
-      responsibilities: t.experience.company.huawei.responsibilities,
-      logoUrl: t.experience.company.huawei.logoUrl,
-      linkUrl: t.experience.company.huawei.linkUrl,
-    },
+    t.experience.company.tarro,
+    t.experience.company.shopee,
+    t.experience.company.huawei,
   ];
 
   return (

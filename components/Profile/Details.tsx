@@ -4,10 +4,10 @@ interface DetailsProps {
 
 export function Details({ t }: DetailsProps) {
   const details = [
-    { key: t.details.phone.label, value: t.details.phone.value },
-    { key: t.details.wechat.label, value: t.details.wechat.value },
-    { key: t.details.address.label, value: t.details.address.value },
-    { key: t.details.email.label, value: t.details.email.value },
+    t.details.phone,
+    t.details.wechat,
+    t.details.address,
+    t.details.email,
   ];
 
   return (
@@ -19,7 +19,7 @@ export function Details({ t }: DetailsProps) {
         {details.map((item, index) => (
           <div key={index} className="flex flex-col">
             <dt className="text-[#4A6FA5] dark:text-gray-400 text-sm font-medium">
-              {item.key}
+              {item.label}
             </dt>
             <dd className="text-gray-700 dark:text-gray-300 mt-1">
               {item.value}
