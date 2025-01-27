@@ -38,3 +38,12 @@ export default async function Home({ params }: Props) {
     </div>
   );
 }
+
+// Add this function to generate static paths
+export function generateStaticParams() {
+  // Add all languages you want to support
+  return [
+    { lang: 'en' },
+    { lang: 'zh' }, // Add other languages as needed
+  ];
+}
