@@ -4,32 +4,62 @@ interface SkillsProps {
     frameworks: string[];
     tools: string[];
   };
-  t: any; // Replace with proper type from your i18n setup
+  t: any;
 }
 
 export function Skills({ skills, t }: SkillsProps) {
-  const SkillList = ({ items, title }: { items: string[]; title: string }) => (
-    <div>
-      <h3 className="text-xl font-medium mb-2">{title}</h3>
-      <ul className="space-y-1">
-        {items.map((skill) => (
-          <li key={skill} className="flex items-center space-x-2">
-            <span>•</span>
-            <span>{skill}</span>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-
   return (
-    <div className="space-y-4">
-      <h2 className="text-2xl font-semibold">{t.profile.skills}</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <SkillList items={skills.languages} title={t.skills.languages} />
-        <SkillList items={skills.frameworks} title={t.skills.frameworks} />
-        <SkillList items={skills.tools} title={t.skills.tools} />
+    <section className="space-y-6" id="skills">
+      <h2 className="text-2xl font-bold text-[#0A2463] dark:text-gray-100">
+        {t.skills.title}
+      </h2>
+      <div className="space-y-4">
+        <div>
+          <h3 className="text-[#4A6FA5] dark:text-gray-400 text-sm font-medium mb-2">
+            {t.skills.languages}
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {skills.languages.map((lang) => (
+              <span
+                key={lang}
+                className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm"
+              >
+                {lang}
+              </span>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h3 className="text-[#4A6FA5] dark:text-gray-400 text-sm font-medium mb-2">
+            {t.skills.frameworks}
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {skills.frameworks.map((framework) => (
+              <span
+                key={framework}
+                className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm"
+              >
+                {framework}
+              </span>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h3 className="text-[#4A6FA5] dark:text-gray-400 text-sm font-medium mb-2">
+            {t.skills.tools}
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {skills.tools.map((tool) => (
+              <span
+                key={tool}
+                className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm"
+              >
+                {tool}
+              </span>
+            ))}
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

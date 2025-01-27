@@ -3,33 +3,27 @@
     "profile": "Profile",
     "experience": "Experience"
   },
-  "profile": {
+  "contact": {
+    "title": "Contact Information",
+    "address": {
+      "label": "Address",
+      "value": "Shenzhen, China"
+    },
+    "phone": {
+      "label": "Phone",
+      "value": "18826234610"
+    },
+    "wechat": {
+      "label": "WeChat",
+      "value": "Yongjin-Huang"
+    }
+  },
+  "intro": {
     "title": "Profile",
-    "introduction": "I'm Yongjin Huang (黄勇进 in Chinese), a software developer with a passion for coding and technology. In my free time, you can find me listening to hip-hop music, watching entertainment videos, playing video games, and of course, coding.",
-    "contact": {
-      "title": "Contact Information",
-      "address": {
-        "label": "Address",
-        "value": "Shenzhen, China"
-      },
-      "phone": {
-        "label": "Phone",
-        "value": "18826234610"
-      },
-      "wechat": {
-        "label": "WeChat",
-        "value": "Yongjin-Huang"
-      }
-    },
-    "education": {
-      "title": "Education",
-      "university": "Sun Yat-sen University",
-      "major": "Software Engineering",
-      "period": "Aug 2013 - June 2017"
-    },
-    "skills": "Skills"
+    "introduction": "I'm Yongjin Huang (黄勇进 in Chinese), a software developer with a passion for coding and technology. In my free time, you can find me listening to hip-hop music, watching entertainment videos, playing video games, and of course, coding."
   },
   "skills": {
+    "title": "Skills",
     "languages": "Programming Languages",
     "frameworks": "Frameworks",
     "tools": "Tools & Technologies"
@@ -38,19 +32,24 @@
     "title": "Work Experience",
     "current": "Current",
     "company": {
-      "wonders": {
-        "name": "Wonders",
+      "tarro": {
+        "linkUrl": "https://www.tarro.com",
+        "logoUrl": "https://resources.wobbjobs.com/jobs-malaysia/companies/138798ef-f4f6-4274-9db8-a21b6bb5f393/company_logo/original/d2b8d774-fbaa-47f8-a8bb-7ca42843280e-Profile%20Logo.png",
+        "name": "Tarro",
         "position": "Software Developer",
         "period": "Apr 2023 - Apr 2024",
+        "project": "Restaurant POS System",
         "responsibilities": [
-          "Responsible for the backend development",
-          "Design the data structure of the order module",
+          "Responsible for the backend development of the restaurant POS software, ensuring the system’s performance, scalability, and reliability.",
+          "Designed the data structure of the order module to facilitate smooth and efficient order management. This included supporting operations such as order creation, updates, retrieval, and real-time status tracking to meet the business requirements of a fast-paced restaurant environment",
           "Define and implement the API for the POS ordering",
           "Migrate the menu data from the legacy POS system",
           "Implement different printing logic"
         ]
       },
       "shopee": {
+        "linkUrl": "https://shopee.sg/",
+        "logoUrl": "https://i.pinimg.com/736x/89/f3/62/89f362b04423b091aee923a0387c5c35.jpg",
         "name": "Shopee",
         "position": "Senior Software Developer",
         "period": "Aug 2019 - Mar 2023",
@@ -62,7 +61,50 @@
           "Optimized the performance of the billing API, The number of db connections was reduced from 4k+ to 1k+, and the single machine-supported QPS increased from 2k+ to 5k+",
           "Actively shared technical knowledge and gave 5 internal presentations"
         ]
+      },
+      "huawei": {
+        "linkUrl": "https://www.huawei.com",
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTix951SGbLfl_AONIN0y6vBqo1ZlBeh-RhbA&s",
+        "name": "Huawei",
+        "position": "Software Developer",
+        "period": "Jul 2017 - Jul 2019",
+        "project": "Huawei Devcloud CodeHub",
+        "responsibilities": [
+          "Independently designed, developed, tested, deployed, and launched the middleware CodeHubEdge, enabling internal interfaces to be opened to third-party services.",
+          "Responsible for writing, optimizing, testing, and maintaining business code related to code repository operations.",
+          "Read GitLab source code and blogs during the job and output a series of GitLab-related blog posts."
+        ]
       }
     }
+  },
+  "details": {
+    "title": "Details",
+    "email": {
+      "label": "Email",
+      "value": "keep_straight_up@foxmail.com"
+    },
+    "phone": {
+      "label": "Phone",
+      "value": "18826234610"
+    },
+    "wechat": {
+      "label": "Wechat",
+      "value": "Yongjin-Huang"
+    },
+    "address": {
+      "label": "Address",
+      "value": "Shenzhen, China"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "university": "Sun Yat-sen University",
+    "major": "Software Engineering",
+    "period": "Aug 2013 - June 2017"
+  },
+  "footer": {
+    "github": "https://github.com/YongjinHuang",
+    "linkedin": "https://www.linkedin.com/in/yongjin-huang-b95558107/",
+    "leetcode": "https://leetcode.cn/u/kerojin/"
   }
 }
