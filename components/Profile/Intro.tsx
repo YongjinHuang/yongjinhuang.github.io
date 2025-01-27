@@ -25,7 +25,7 @@ export function Intro({
     return () => clearTimeout(timer);
   }, []);
   return (
-    <section className="space-y-6">
+    <section id="intro" className="space-y-6">
       <h1 className="text-2xl font-bold text-[#0A2463] dark:text-gray-100">
         {title}
       </h1>

@@ -17,7 +17,7 @@ export function Skills({ t }: SkillsProps) {
             {t.skills.languages.value.map((lang: string) => (
               <span
                 key={lang}
-                className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm"
+                className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm transition-transform transform hover:scale-105 hover:bg-[#4A6FA5] hover:text-white dark:hover:bg-gray-600"
               >
                 {lang}
               </span>
@@ -32,7 +32,7 @@ export function Skills({ t }: SkillsProps) {
             {t.skills.frameworks.value.map((framework: string) => (
               <span
                 key={framework}
-                className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm"
+                className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm transition-transform transform hover:scale-105 hover:bg-[#4A6FA5] hover:text-white dark:hover:bg-gray-600"
               >
                 {framework}
               </span>
@@ -47,7 +47,7 @@ export function Skills({ t }: SkillsProps) {
             {t.skills.tools.value.map((tool: string) => (
               <span
                 key={tool}
-                className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm"
+                className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm transition-transform transform hover:scale-105 hover:bg-[#4A6FA5] hover:text-white dark:hover:bg-gray-600"
               >
                 {tool}
               </span>

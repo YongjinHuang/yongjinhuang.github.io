@@ -45,7 +45,7 @@
     "company": {
       "tarro": {
         "linkUrl": "https://www.tarro.com",
-        "logoUrl": "https://resources.wobbjobs.com/jobs-malaysia/companies/138798ef-f4f6-4274-9db8-a21b6bb5f393/company_logo/original/d2b8d774-fbaa-47f8-a8bb-7ca42843280e-Profile%20Logo.png",
+        "logoUrl": "/logo/tarro.webp",
         "name": "Tarro",
         "position": "Software Engineer",
         "period": "Apr 2023 - Apr 2024",
@@ -60,7 +60,7 @@
       },
       "shopee": {
         "linkUrl": "https://shopee.sg/",
-        "logoUrl": "https://i.pinimg.com/736x/89/f3/62/89f362b04423b091aee923a0387c5c35.jpg",
+        "logoUrl": "/logo/shopee.jpg",
         "name": "Shopee",
         "position": "Senior Software Engineer",
         "period": "Aug 2019 - Mar 2023",
@@ -75,7 +75,7 @@
       },
       "huawei": {
         "linkUrl": "https://www.huawei.com",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTix951SGbLfl_AONIN0y6vBqo1ZlBeh-RhbA&s",
+        "logoUrl": "/logo/huawei.jpeg",
         "name": "Huawei",
         "position": "Software Engineer",
         "period": "Jul 2017 - Jul 2019",

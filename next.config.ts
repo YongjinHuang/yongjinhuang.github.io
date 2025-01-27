@@ -5,11 +5,6 @@ const nextConfig: NextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
-    domains: [
-      'resources.wobbjobs.com',
-      'i.pinimg.com',
-      'encrypted-tbn0.gstatic.com',
-    ],
   },
 };
 

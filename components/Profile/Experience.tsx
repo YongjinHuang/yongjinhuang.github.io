@@ -22,7 +22,7 @@ export function Experience({ t }: ExperienceProps) {
   ];
 
   return (
-    <section>
+    <section id="experience">
       <h2 className="text-2xl font-bold text-[#0A2463] dark:text-gray-100 mb-8">
         {t.experience.title}
       </h2>
@@ -36,7 +36,7 @@ export function Experience({ t }: ExperienceProps) {
                 height={32}
                 src={experience.logoUrl}
                 alt={`${experience.name} logo`}
-                className="h-8 w-8 mr-2"
+                className="h-9 w-9 mr-2 rounded-full"
               />
               <div>
                 <div className="flex justify-between items-start">

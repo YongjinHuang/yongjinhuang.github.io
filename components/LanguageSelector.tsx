@@ -2,30 +2,35 @@
 
 import { usePathname, useRouter } from 'next/navigation';
 import { i18n } from '@/app/i18n/settings';
+import React from 'react';
 
 export default function LanguageSelector() {
   const router = useRouter();
   const pathname = usePathname();
 
-  const handleLanguageChange = (locale: string) => {
-    // Get the current path segments
+  const handleLanguageChange = (lang: string) => {
+    // Store the current scroll position
+    sessionStorage.setItem('scrollPosition', window.scrollY.toString());
+
+    // Update the URL with the new locale
     const segments = pathname.split('/');
-
-    // The first segment after split will be empty because pathname starts with "/"
-    // The second segment (index 1) should be the current locale
     if (segments.length > 1) {
-      segments[1] = locale;
+      segments[1] = lang;
     } else {
-      segments.push(locale);
+      segments.push(lang);
     }
-
-    // Join the segments back together
-    const newPath = segments.join('/') || `/${locale}`;
-
-    // Navigate to the new path
+    const newPath = segments.join('/');
     router.push(newPath);
-    router.refresh(); // Force a refresh to update the content
   };
+
+  // Restore the scroll position after the page loads
+  React.useEffect(() => {
+    const scrollPosition = sessionStorage.getItem('scrollPosition');
+    if (scrollPosition) {
+      window.scrollTo(0, parseInt(scrollPosition, 10));
+      sessionStorage.removeItem('scrollPosition');
+    }
+  }, []);
 
   return (
     <div className="flex space-x-4">

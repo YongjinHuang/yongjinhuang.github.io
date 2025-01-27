@@ -45,7 +45,7 @@
     "company": {
       "tarro": {
         "linkUrl": "https://www.tarro.com/zh",
-        "logoUrl": "https://resources.wobbjobs.com/jobs-malaysia/companies/138798ef-f4f6-4274-9db8-a21b6bb5f393/company_logo/original/d2b8d774-fbaa-47f8-a8bb-7ca42843280e-Profile%20Logo.png",
+        "logoUrl": "/logo/tarro.webp",
         "name": "Tarro",
         "position": "软件开发工程师",
         "period": "2023 年 4 月 - 2024 年 4 月",
@@ -60,7 +60,7 @@
       },
       "shopee": {
         "linkUrl": "https://shopee.sg",
-        "logoUrl": "https://i.pinimg.com/736x/89/f3/62/89f362b04423b091aee923a0387c5c35.jpg",
+        "logoUrl": "/logo/shopee.jpg",
         "name": "虾皮",
         "position": "高级软件开发工程师",
         "period": "2019 年 8 月 - 2023 年 3 月",
@@ -75,7 +75,7 @@
       },
       "huawei": {
         "linkUrl": "https://www.huaweicloud.com/devcloud/",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTix951SGbLfl_AONIN0y6vBqo1ZlBeh-RhbA&s",
+        "logoUrl": "/logo/huawei.jpeg",
         "name": "华为技术有限公司",
         "position": "软件开发工程师",
         "period": "2017 年 7 月 - 2019 年 9 月",
