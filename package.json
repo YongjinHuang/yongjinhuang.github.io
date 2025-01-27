@@ -8,7 +8,8 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "format": "prettier --write \"**/*.{ts,tsx,json,md}\"",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out",
+    "postbuild": "touch out/.nojekyll"
   },
   "homepage": "https://yongjinhuang.github.io",
   "dependencies": {
