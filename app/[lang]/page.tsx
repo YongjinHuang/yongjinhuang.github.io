@@ -1,20 +1,21 @@
-import { Locale } from "@/app/i18n/settings";
-import { getTranslations } from "../i18n/settings";
-import { Skills } from "@/components/Profile/Skills";
-import { Experience } from "@/components/Profile/Experience";
+import { Locale } from '@/app/i18n/settings';
+import { getTranslations } from '../i18n/settings';
+import { Skills } from '@/components/Profile/Skills';
+import { Experience } from '@/components/Profile/Experience';
 
 const skills = {
-  languages: ["JavaScript", "TypeScript", "Python", "Java", "SQL"],
-  frameworks: ["React", "Next.js", "Spring Boot", "Django"],
-  tools: ["Git", "Docker", "AWS", "PostgreSQL", "MongoDB"],
+  languages: ['JavaScript', 'TypeScript', 'Python', 'Java', 'SQL'],
+  frameworks: ['React', 'Next.js', 'Spring Boot', 'Django'],
+  tools: ['Git', 'Docker', 'AWS', 'PostgreSQL', 'MongoDB'],
 };
 
 interface Props {
-  params: { lang: Locale };
+  params: Promise<{ lang: Locale }>;
 }
 
-export default async function Home({ params: { lang } }: Props) {
-  const t = await getTranslations(lang); // Use the dynamic language parameter
+export default async function Home({ params }: Props) {
+  const { lang } = await params;
+  const t = await getTranslations(lang); // Use lang directly
 
   return (
     <div className="max-w-4xl mx-auto space-y-12">
