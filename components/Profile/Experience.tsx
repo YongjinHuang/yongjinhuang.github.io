@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 interface CompanyExperience {
   name: string;
   position: string;
@@ -50,7 +52,9 @@ export function Experience({ t }: ExperienceProps) {
           <div key={index} className="relative">
             <div className="absolute -left-[9px] h-4 w-4 rounded-full bg-[#4A6FA5] dark:bg-gray-500" />
             <div className="ml-6 flex items-start">
-              <img
+              <Image
+                width={32}
+                height={32}
                 src={experience.logoUrl}
                 alt={`${experience.name} logo`}
                 className="h-8 w-8 mr-2"

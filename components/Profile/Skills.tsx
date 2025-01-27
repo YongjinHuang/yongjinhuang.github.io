@@ -44,7 +44,7 @@ export function Skills({ t }: SkillsProps) {
             {t.skills.tools.title}
           </h3>
           <div className="flex flex-wrap gap-2">
-            {t.skills.tools.value.map((tool) => (
+            {t.skills.tools.value.map((tool: string) => (
               <span
                 key={tool}
                 className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm"
