@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "profile": "Profile",
+    "experience": "Experience"
+  },
+  "profile": {
+    "title": "Profile",
+    "introduction": "I'm Yongjin Huang (黄勇进 in Chinese), a software developer with a passion for coding and technology. In my free time, you can find me listening to hip-hop music, watching entertainment videos, playing video games, and of course, coding.",
+    "contact": {
+      "title": "Contact Information",
+      "address": {
+        "label": "Address",
+        "value": "Shenzhen, China"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "18826234610"
+      },
+      "wechat": {
+        "label": "WeChat",
+        "value": "Yongjin-Huang"
+      }
+    },
+    "education": {
+      "title": "Education",
+      "university": "Sun Yat-sen University",
+      "major": "Software Engineering",
+      "period": "Aug 2013 - June 2017"
+    },
+    "skills": "Skills"
+  },
+  "skills": {
+    "languages": "Programming Languages",
+    "frameworks": "Frameworks",
+    "tools": "Tools & Technologies"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "current": "Current",
+    "company": {
+      "wonders": {
+        "name": "Wonders",
+        "position": "Software Developer",
+        "period": "Apr 2023 - Apr 2024",
+        "responsibilities": [
+          "Responsible for the backend development",
+          "Design the data structure of the order module",
+          "Define and implement the API for the POS ordering",
+          "Migrate the menu data from the legacy POS system",
+          "Implement different printing logic"
+        ]
+      },
+      "shopee": {
+        "name": "Shopee",
+        "position": "Senior Software Developer",
+        "period": "Aug 2019 - Mar 2023",
+        "project": "Billing Platform",
+        "responsibilities": [
+          "Responsible for the overall technical solution design",
+          "Acted as the project PIC, controlled the project progress, scheduled and divided the tasks, and promptly managed risks, successfully delivering the project on time",
+          "Acted as the Code Review PIC for the team and regularly organized weekly CR review meetings, effectively improving the team's code quality",
+          "Optimized the performance of the billing API, The number of db connections was reduced from 4k+ to 1k+, and the single machine-supported QPS increased from 2k+ to 5k+",
+          "Actively shared technical knowledge and gave 5 internal presentations"
+        ]
+      }
+    }
+  }
+}

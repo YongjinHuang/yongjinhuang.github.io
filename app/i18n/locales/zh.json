@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "profile": "个人简介",
+    "experience": "工作经验"
+  },
+  "profile": {
+    "title": "关于我",
+    "introduction": "我是黄勇进，一名热爱编程和技术的软件开发工程师。在空闲时间，我喜欢听嘻哈音乐、看娱乐视频、玩电子游戏，当然还有编程。",
+    "contact": {
+      "title": "联系方式",
+      "address": {
+        "label": "地址",
+        "value": "深圳，中国"
+      },
+      "phone": {
+        "label": "电话",
+        "value": "18826234610"
+      },
+      "wechat": {
+        "label": "微信",
+        "value": "Yongjin-Huang"
+      }
+    },
+    "education": {
+      "title": "教育背景",
+      "university": "中山大学",
+      "major": "软件工程",
+      "period": "2013年8月 - 2017年6月"
+    },
+    "skills": "技能特长"
+  },
+  "skills": {
+    "languages": "编程语言",
+    "frameworks": "框架",
+    "tools": "工具和技术"
+  },
+  "experience": {
+    "title": "工作经验",
+    "current": "现在",
+    "company": {
+      "wonders": {
+        "name": "万达信息",
+        "position": "软件开发工程师",
+        "period": "2023年4月 - 2024年4月",
+        "responsibilities": [
+          "负责后端开发",
+          "设计订单模块的数据结构",
+          "定义并实现POS系统的API",
+          "迁移旧POS系统的菜单数据",
+          "实现不同的打印逻辑"
+        ]
+      },
+      "shopee": {
+        "name": "虾皮",
+        "position": "高级软件开发工程师",
+        "period": "2019年8月 - 2023年3月",
+        "project": "计费平台",
+        "responsibilities": [
+          "负责整体技术方案设计",
+          "担任项目负责人，控制项目进度，安排和分配任务，及时管理风险，成功按时交付项目",
+          "担任团队代码审查负责人，定期组织每周代码审查会议，有效提高团队代码质量",
+          "优化计费API性能，数据库连接数从4k+降至1k+，单机支持QPS从2k+提升至5k+",
+          "积极分享技术知识，做了5次内部技术分享"
+        ]
+      }
+    }
+  }
+}
