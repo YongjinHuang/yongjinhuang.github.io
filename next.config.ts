@@ -11,7 +11,6 @@ const nextConfig: NextConfig = {
       'encrypted-tbn0.gstatic.com',
     ],
   },
-  basePath: '/profile',
 };
 
 export default nextConfig;
