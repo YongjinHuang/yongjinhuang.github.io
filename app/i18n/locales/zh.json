@@ -24,9 +24,18 @@
   },
   "skills": {
     "title": "技能特长",
-    "languages": "编程语言",
-    "frameworks": "框架",
-    "tools": "工具和技术"
+    "languages": {
+      "title": "编程语言",
+      "value": ["Golang", "Python", "TypeScript", "Java", "SQL"]
+    },
+    "frameworks": {
+      "title": "框架",
+      "value": ["Gin", "Django", "Spring Boot", "React", "Next.js"]
+    },
+    "tools": {
+      "title": "工具和技术",
+      "value": ["Git", "Linux", "Docker", "K8S", "MySQL", "Redis", "MongoDB"]
+    }
   },
   "experience": {
     "title": "工作经验",
@@ -66,7 +75,7 @@
         "linkUrl": "https://www.huaweicloud.com/devcloud/",
         "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTix951SGbLfl_AONIN0y6vBqo1ZlBeh-RhbA&s",
         "name": "华为技术有限公司",
-        "position": "Software Developer",
+        "position": "软件开发工程师",
         "period": "2017 年 7 月 - 2019 年 9 月",
         "project": "Huawei Devcloud CodeHub",
         "responsibilities": [
@@ -104,6 +113,7 @@
     "period": "2013 年 8 月 - 2017 年 6 月"
   },
   "footer": {
+    "name": "黄勇进",
     "github": "https://github.com/YongjinHuang",
     "linkedin": "https://www.linkedin.com/in/yongjin-huang-b95558107/",
     "leetcode": "https://leetcode.cn/u/kerojin/"

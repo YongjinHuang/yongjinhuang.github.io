@@ -19,14 +19,23 @@
     }
   },
   "intro": {
-    "title": "Profile",
+    "title": "About Me",
     "introduction": "I'm Yongjin Huang (黄勇进 in Chinese), a software developer with a passion for coding and technology. In my free time, you can find me listening to hip-hop music, watching entertainment videos, playing video games, and of course, coding."
   },
   "skills": {
     "title": "Skills",
-    "languages": "Programming Languages",
-    "frameworks": "Frameworks",
-    "tools": "Tools & Technologies"
+    "languages": {
+      "title": "Programming Languages",
+      "value": ["Golang", "Python", "TypeScript", "Java", "SQL"]
+    },
+    "frameworks": {
+      "title": "Frameworks",
+      "value": ["Gin", "Django", "Spring Boot", "React", "Next.js"]
+    },
+    "tools": {
+      "title": "Tools & Technologies",
+      "value": ["Git", "Linux", "Docker", "K8S", "MySQL", "Redis", "MongoDB"]
+    }
   },
   "experience": {
     "title": "Work Experience",
@@ -36,7 +45,7 @@
         "linkUrl": "https://www.tarro.com",
         "logoUrl": "https://resources.wobbjobs.com/jobs-malaysia/companies/138798ef-f4f6-4274-9db8-a21b6bb5f393/company_logo/original/d2b8d774-fbaa-47f8-a8bb-7ca42843280e-Profile%20Logo.png",
         "name": "Tarro",
-        "position": "Software Developer",
+        "position": "Software Engineer",
         "period": "Apr 2023 - Apr 2024",
         "project": "Restaurant POS System",
         "responsibilities": [
@@ -51,7 +60,7 @@
         "linkUrl": "https://shopee.sg/",
         "logoUrl": "https://i.pinimg.com/736x/89/f3/62/89f362b04423b091aee923a0387c5c35.jpg",
         "name": "Shopee",
-        "position": "Senior Software Developer",
+        "position": "Senior Software Engineer",
         "period": "Aug 2019 - Mar 2023",
         "project": "Billing Platform",
         "responsibilities": [
@@ -66,7 +75,7 @@
         "linkUrl": "https://www.huawei.com",
         "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTix951SGbLfl_AONIN0y6vBqo1ZlBeh-RhbA&s",
         "name": "Huawei",
-        "position": "Software Developer",
+        "position": "Software Engineer",
         "period": "Jul 2017 - Jul 2019",
         "project": "Huawei Devcloud CodeHub",
         "responsibilities": [
@@ -103,6 +112,7 @@
     "period": "Aug 2013 - June 2017"
   },
   "footer": {
+    "name": "Yongjin Huang",
     "github": "https://github.com/YongjinHuang",
     "linkedin": "https://www.linkedin.com/in/yongjin-huang-b95558107/",
     "leetcode": "https://leetcode.cn/u/kerojin/"

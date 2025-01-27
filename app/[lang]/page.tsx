@@ -7,12 +7,6 @@ import { Footer } from '@/components/Footer';
 import { Intro } from '@/components/Profile/Intro';
 import { Education } from '@/components/Profile/Education';
 
-const skills = {
-  languages: ['JavaScript', 'TypeScript', 'Python', 'Java', 'SQL'],
-  frameworks: ['React', 'Next.js', 'Spring Boot', 'Django'],
-  tools: ['Git', 'Docker', 'AWS', 'PostgreSQL', 'MongoDB'],
-};
-
 interface Props {
   params: Promise<{ lang: Locale }>;
 }
@@ -32,7 +26,7 @@ export default async function Home({ params }: Props) {
       {/* Skills and Education Section in a grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <Education t={t} />
-        <Skills skills={skills} t={t} />
+        <Skills t={t} />
       </div>
 
       {/* Experience Section */}

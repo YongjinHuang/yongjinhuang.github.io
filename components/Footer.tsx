@@ -7,7 +7,8 @@ export function Footer({ t }: FooterProps) {
     <footer className="bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200 py-6 mt-12">
       <div className="max-w-4xl mx-auto text-center">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+          &copy; {new Date().getFullYear()} {t.footer.name}. All rights
+          reserved.
         </p>
         <div className="flex justify-center space-x-4 mt-2">
           <a
