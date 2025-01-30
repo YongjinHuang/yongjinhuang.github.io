@@ -36,7 +36,7 @@ export function Intro({
           alt="Profile"
           width={300}
           height={300}
-          className="mb-4 md:mb-0"
+          className="mb-4 md:mb-0 rounded-full"
         />
         <div className="flex flex-col justify-between">
           <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
