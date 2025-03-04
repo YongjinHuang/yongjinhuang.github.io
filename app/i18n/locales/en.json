@@ -47,12 +47,12 @@
         "linkUrl": "https://www.wilddata.cn",
         "logoUrl": "/logo/wilddata.png",
         "name": "WildData",
-        "project": "Super",
-        "position": "(Part-time) Software Development Engineer",
+        "project": "Suppr",
+        "position": "(Part-time) Software Engineer",
         "period": "April 2024 - Present",
         "responsibilities": [
-          "Responsible for the setup and maintenance of continuous integration/deployment and container services based on Tencent Cloud and Coding",
-          "Responsible for all backend development of the [Super](https://suppr.wilddata.cn/) project, including integration with WeChat official account, points management, literature search integration, document translation integration, payment integration, etc.",
+          "Responsible for the setup and maintenance of continuous integration/deployment and container services based on [Tencent Cloud](https://cloud.tencent.com/) and [Coding](https://coding.net/)",
+          "Responsible for all backend development of the [Suppr](https://suppr.wilddata.cn/) project, including integration with WeChat official account, points management, literature search integration, document translation integration, payment integration, etc.",
           "Responsible for the operation and maintenance of all backend projects of the company",
           "Responsible for the development of the `wilddata-payment-module` project, providing a unified payment channel and payment application configuration, facilitating the integration of payment functions for new applications"
         ]
@@ -84,11 +84,11 @@
           "Acted as the project PIC, controlled the project progress, scheduled and divided the tasks, and promptly managed risks, successfully delivering the project on time",
           "Acted as the Code Review PIC for the team and regularly organized weekly CR review meetings, effectively improving the team's code quality",
           "Optimized the performance of the billing API, The number of db connections was reduced from 4k+ to 1k+, and the single machine-supported QPS increased from 2k+ to 5k+",
-          "Actively shared technical knowledge and gave 5 internal presentations"
+          "Actively shared technical knowledge and gave 5 [internal presentations](https://yongjinhuang.github.io/blog/)"
         ]
       },
       "huawei": {
-        "linkUrl": "https://www.huawei.com",
+        "linkUrl": "https://www.huaweicloud.com/devcloud/",
         "logoUrl": "/logo/huawei.jpeg",
         "name": "Huawei",
         "position": "Software Engineer",
@@ -97,7 +97,7 @@
         "responsibilities": [
           "Independently designed, developed, tested, deployed, and launched the middleware CodeHubEdge, enabling internal interfaces to be opened to third-party services.",
           "Responsible for writing, optimizing, testing, and maintaining business code related to code repository operations.",
-          "Read GitLab source code and blogs during the job and output a series of GitLab-related blog posts."
+          "Read GitLab source code and blogs during the job and output a series of [GitLab-related blog posts](https://juejin.cn/post/6844903860033552391)."
         ]
       }
     }

@@ -74,6 +74,7 @@ export function Experience({ t }: ExperienceProps) {
                             a: ({ ...props }) => (
                               <a
                                 {...props}
+                                style={{ color: '#4A6FA5' }}
                                 target="_blank"
                                 rel="noopener noreferrer"
                               />
