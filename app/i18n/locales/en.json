@@ -43,6 +43,20 @@
     "title": "Work Experience",
     "current": "Current",
     "company": {
+      "wilddata": {
+        "linkUrl": "https://www.wilddata.cn",
+        "logoUrl": "/logo/wilddata.png",
+        "name": "WildData",
+        "project": "Super",
+        "position": "(Part-time) Software Development Engineer",
+        "period": "April 2024 - Present",
+        "responsibilities": [
+          "Responsible for the setup and maintenance of continuous integration/deployment and container services based on Tencent Cloud and Coding",
+          "Responsible for all backend development of the [Super](https://suppr.wilddata.cn/) project, including integration with WeChat official account, points management, literature search integration, document translation integration, payment integration, etc.",
+          "Responsible for the operation and maintenance of all backend projects of the company",
+          "Responsible for the development of the `wilddata-payment-module` project, providing a unified payment channel and payment application configuration, facilitating the integration of payment functions for new applications"
+        ]
+      },
       "tarro": {
         "linkUrl": "https://www.tarro.com",
         "logoUrl": "/logo/tarro.webp",

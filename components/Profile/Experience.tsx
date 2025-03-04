@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import ReactMarkdown from 'react-markdown';
 
 interface CompanyExperience {
   name: string;
@@ -16,6 +17,7 @@ interface ExperienceProps {
 
 export function Experience({ t }: ExperienceProps) {
   const experiences: CompanyExperience[] = [
+    t.experience.company.wilddata,
     t.experience.company.tarro,
     t.experience.company.shopee,
     t.experience.company.huawei,
@@ -66,7 +68,20 @@ export function Experience({ t }: ExperienceProps) {
                         key={respIndex}
                         className="text-gray-600 dark:text-gray-300 before:content-['•'] before:mr-2 before:text-[#4A6FA5] dark:before:text-gray-500"
                       >
-                        {responsibility}
+                        <ReactMarkdown
+                          components={{
+                            p: ({ ...props }) => <span {...props} />,
+                            a: ({ ...props }) => (
+                              <a
+                                {...props}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              />
+                            ),
+                          }}
+                        >
+                          {responsibility}
+                        </ReactMarkdown>
                       </li>
                     )
                   )}

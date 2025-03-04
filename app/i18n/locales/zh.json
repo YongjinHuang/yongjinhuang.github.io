@@ -43,11 +43,26 @@
     "title": "工作经验",
     "current": "现在",
     "company": {
+      "wilddata": {
+        "linkUrl": "https://www.wilddata.cn",
+        "logoUrl": "/logo/wilddata.png",
+        "name": "数野科技",
+        "project": "超能文献",
+        "position": "(兼职)软件开发工程师",
+        "period": "2024 年 4 月 - 至今",
+        "responsibilities": [
+          "负责基于腾讯云和 Coding 的持续集成/部署及容器服务的搭建和维护工作",
+          "负责 [超能文献](https://suppr.wilddata.cn/) 项目的全部后端开发，包括集成微信公众号、积分管理、对接文献搜索、对接文档翻译、支付集成等功能",
+          "负责公司所有后端项目的运维及维护工作",
+          "负责 `wilddata-payment-module` 项目的开发，提供统一的支付渠道和支付应用的配置，方便后续新应用集成支付功能"
+        ]
+      },
       "tarro": {
         "linkUrl": "https://www.tarro.com/zh",
         "logoUrl": "/logo/tarro.webp",
         "name": "Tarro",
         "position": "软件开发工程师",
+        "project": "Restaurants POS",
         "period": "2023 年 4 月 - 2024 年 4 月",
         "responsibilities": [
           "负责餐馆 POS 软件的后端开发工作，主要承担核心功能模块的设计和实现",
