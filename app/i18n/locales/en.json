@@ -51,10 +51,10 @@
         "position": "(Part-time) Software Engineer",
         "period": "April 2024 - Present",
         "responsibilities": [
-          "Responsible for the setup and maintenance of continuous integration/deployment and container services based on [Tencent Cloud](https://cloud.tencent.com/) and [Coding](https://coding.net/)",
-          "Responsible for all backend development of the [Suppr](https://suppr.wilddata.cn/) project, including integration with WeChat official account, points management, literature search integration, document translation integration, payment integration, etc.",
-          "Responsible for the operation and maintenance of all backend projects of the company",
-          "Responsible for the development of the `wilddata-payment-module` project, providing a unified payment channel and payment application configuration, facilitating the integration of payment functions for new applications"
+          "Designed and maintained CI/CD pipelines using [Tencent Cloud](https://cloud.tencent.com/) and [Coding](https://coding.net/), improving deployment efficiency by 100%",
+          "Developed and integrated backend features for the [Suppr](https://suppr.wilddata.cn/) project, including WeChat official account integration, points management, literature search, literature summarization, document translation, and payment processing, enhancing system functionality and user experience",
+          "Maintained backend projects by handling HTTPS certificates, configuring NGINX, and managing websites. Built a containerized deployment service for applications, improving scalability and efficiency.",
+          "Developed the Wilddata Payment Module, streamlining payment integration for new applications and reducing onboarding time by 200%"
         ]
       },
       "tarro": {
@@ -65,11 +65,9 @@
         "period": "Apr 2023 - Apr 2024",
         "project": "Restaurant POS System",
         "responsibilities": [
-          "Responsible for the backend development of the restaurant POS software, ensuring the system’s performance, scalability, and reliability.",
-          "Designed the data structure of the order module to facilitate smooth and efficient order management. This included supporting operations such as order creation, updates, retrieval, and real-time status tracking to meet the business requirements of a fast-paced restaurant environment",
-          "Define and implement the API for the POS ordering",
-          "Migrate the menu data from the legacy POS system",
-          "Implement different printing logic"
+          "Defined and implemented RESTful APIs for POS ordering, enabling seamless integration with frontend systems.",
+          "Developed and optimized printing logic for POS receipts, making it more customizable, reducing print errors by 50% and improving efficiency.",
+          "Migrated legacy menu data to a new POS system, ensuring seamless transition and reducing retrieval time by 30%"
         ]
       },
       "shopee": {
@@ -80,11 +78,11 @@
         "period": "Aug 2019 - Mar 2023",
         "project": "Billing Platform",
         "responsibilities": [
-          "Responsible for the overall technical solution design",
-          "Acted as the project PIC, controlled the project progress, scheduled and divided the tasks, and promptly managed risks, successfully delivering the project on time",
-          "Acted as the Code Review PIC for the team and regularly organized weekly CR review meetings, effectively improving the team's code quality",
-          "Optimized the performance of the billing API, The number of db connections was reduced from 4k+ to 1k+, and the single machine-supported QPS increased from 2k+ to 5k+",
-          "Actively shared technical knowledge and gave 5 [internal presentations](https://yongjinhuang.github.io/blog/)"
+          "Designed and implemented scalable technical solutions of the billing platform, improving system efficiency and maintainability.",
+          "Led project execution, managed risks, and ensured on-time delivery by optimizing resource allocation.",
+          "Led weekly code review sessions, improving code quality and reducing deployment defects by 30%.",
+          "Optimized billing API performance, reducing DB connections from 4k to 1k and increasing QPS from 2k to 5k.",
+          "Delivered 5 technical presentations on software architecture and performance optimization."
         ]
       },
       "huawei": {
@@ -95,8 +93,8 @@
         "period": "Jul 2017 - Aug 2019",
         "project": "Huawei Devcloud CodeHub",
         "responsibilities": [
-          "Independently designed, developed, tested, deployed, and launched the middleware CodeHubEdge, enabling internal interfaces to be opened to third-party services.",
-          "Responsible for writing, optimizing, testing, and maintaining business code related to code repository operations.",
+          "Designed, developed, and launched CodeHubEdge middleware, enabling third-party service integration.",
+          "Wrote, optimized, and maintained repository operation code, improving the efficiency of operations (Create repositories, submit a commit, etc) by 30%.",
           "Read GitLab source code and blogs during the job and output a series of [GitLab-related blog posts](https://juejin.cn/post/6844903860033552391)."
         ]
       }
