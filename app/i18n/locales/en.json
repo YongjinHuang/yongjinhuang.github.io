@@ -44,6 +44,7 @@
     "current": "Current",
     "company": {
       "wilddata": {
+        "techStack": "Java / Spring Boot, Typescript / Next.js",
         "linkUrl": "https://www.wilddata.cn",
         "logoUrl": "/logo/wilddata.png",
         "name": "WildData",
@@ -58,6 +59,7 @@
         ]
       },
       "tarro": {
+        "techStack": "Golang / Gin, Typescript / React",
         "linkUrl": "https://www.tarro.com",
         "logoUrl": "/logo/tarro.webp",
         "name": "Tarro",
@@ -71,6 +73,7 @@
         ]
       },
       "shopee": {
+        "techStack": "Python / Django, Golang / Gin, Typescript / React",
         "linkUrl": "https://shopee.sg/",
         "logoUrl": "/logo/shopee.jpg",
         "name": "Shopee",
@@ -86,6 +89,7 @@
         ]
       },
       "huawei": {
+        "techStack": "Java / Spring Boot",
         "linkUrl": "https://www.huaweicloud.com/devcloud/",
         "logoUrl": "/logo/huawei.jpeg",
         "name": "Huawei",

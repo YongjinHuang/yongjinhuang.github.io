@@ -50,6 +50,7 @@
         "project": "超能文献",
         "position": "(兼职)软件开发工程师",
         "period": "2024 年 4 月 - 至今",
+        "techStack": "Java / Spring Boot, Typescript / Next.js",
         "responsibilities": [
           "设计并维护基于 [腾讯云](https://cloud.tencent.com/) 和 [Coding](https://coding.net/) 的 CI/CD 流水线，提高部署效率100%",
           "开发并集成 [超能文献](https://suppr.wilddata.cn/) 项目的后端功能，包括微信公众号集成、积分管理、文献检索、文献摘要、文档翻译和支付处理，增强系统功能和用户体验",
@@ -64,6 +65,7 @@
         "position": "软件开发工程师",
         "project": "Restaurants POS",
         "period": "2023 年 4 月 - 2024 年 4 月",
+        "techStack": "Golang / Gin, Typescript / React",
         "responsibilities": [
           "设计并实现 POS 点餐系统的 RESTful API，实现与前端系统的无缝对接",
           "优化 POS 收据打印逻辑，使其更加可定制化，将打印错误率降低 50%，提升效率",
@@ -76,6 +78,7 @@
         "name": "虾皮",
         "position": "高级软件开发工程师",
         "period": "2019 年 8 月 - 2023 年 3 月",
+        "techStack": "Python / Django, Golang / Gin, Typescript / React",
         "project": "计费平台",
         "responsibilities": [
           "设计并实现计费平台可扩展的技术解决方案，提高系统效率和可维护性",
@@ -86,6 +89,7 @@
         ]
       },
       "huawei": {
+        "techStack": "Java / Spring Boot",
         "linkUrl": "https://www.huaweicloud.com/devcloud/",
         "logoUrl": "/logo/huawei.jpeg",
         "name": "华为技术有限公司",

@@ -5,6 +5,7 @@ interface CompanyExperience {
   name: string;
   position: string;
   period: string;
+  techStack: string;
   project?: string;
   responsibilities: string[];
   logoUrl: string;
@@ -40,8 +41,8 @@ export function Experience({ t }: ExperienceProps) {
                 alt={`${experience.name} logo`}
                 className="h-9 w-9 mr-2 rounded-full"
               />
-              <div>
-                <div className="flex justify-between items-start">
+              <div className="w-full">
+                <div className="flex justify-between items-center">
                   <div>
                     <h3 className="text-xl font-bold text-[#0A2463] dark:text-gray-100">
                       <a
@@ -57,9 +58,14 @@ export function Experience({ t }: ExperienceProps) {
                       {experience.position}
                     </p>
                   </div>
-                  <span className="text-sm text-gray-500 dark:text-gray-400">
-                    {experience.period}
-                  </span>
+                  <div className="flex flex-col items-end">
+                    <span className="text-sm text-gray-500 dark:text-gray-400">
+                      {experience.period}
+                    </span>
+                    <span className="text-sm text-gray-500 dark:text-gray-400">
+                      {experience.techStack}
+                    </span>
+                  </div>
                 </div>
                 <ul className="mt-4 space-y-2">
                   {experience.responsibilities.map(
