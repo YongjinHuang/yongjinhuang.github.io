@@ -22,7 +22,12 @@
     "resumeFile": "/en/resume.pdf/",
     "resumePrompt": " 😄 See My Resume",
     "title": "About Me",
-    "introduction": "I'm Yongjin Huang, a software developer with a passion for coding and technology. In my free time, you can find me listening to hip-hop music, watching entertainment videos, playing video games, and of course, coding."
+    "introduction": "I'm Yongjin Huang, a software developer with a passion for coding and technology. In my free time, you can find me listening to hip-hop music, watching entertainment videos, playing video games, and of course, coding.",
+    "links": {
+      "github": "https://github.com/YongjinHuang",
+      "linkedin": "https://www.linkedin.com/in/yongjin-huang-b95558107/",
+      "leetcode": "https://leetcode.cn/u/kerojin/"
+    }
   },
   "skills": {
     "title": "Skills",
@@ -130,9 +135,6 @@
     "period": "Aug 2013 - June 2017"
   },
   "footer": {
-    "name": "Yongjin Huang",
-    "github": "https://github.com/YongjinHuang",
-    "linkedin": "https://www.linkedin.com/in/yongjin-huang-b95558107/",
-    "leetcode": "https://leetcode.cn/u/kerojin/"
+    "name": "Yongjin Huang"
   }
 }

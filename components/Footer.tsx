@@ -16,32 +16,6 @@ export async function Footer({ params }: FooterProps) {
           &copy; {new Date().getFullYear()} {t.footer.name}. All rights
           reserved.
         </p>
-        <div className="flex justify-center space-x-4 mt-2">
-          <a
-            href={t.footer.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
-            GitHub
-          </a>
-          <a
-            href={t.footer.linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
-            LinkedIn
-          </a>
-          <a
-            href={t.footer.leetcode}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
-            Leetcode
-          </a>
-        </div>
       </div>
     </footer>
   );

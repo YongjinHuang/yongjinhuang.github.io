@@ -22,7 +22,12 @@
     "resumeFile": "/zh/resume.pdf/",
     "resumePrompt": " 😄 查看我的简历",
     "title": "关于我",
-    "introduction": "我是黄勇进，一名热爱编程和技术的软件开发工程师。在空闲时间，我喜欢听嘻哈音乐、看娱乐视频、玩电子游戏，当然还有编程。"
+    "introduction": "我是黄勇进，一名热爱编程和技术的软件开发工程师。在空闲时间，我喜欢听嘻哈音乐、看娱乐视频、玩电子游戏，当然还有编程。",
+    "links": {
+      "github": "https://github.com/YongjinHuang",
+      "linkedin": "https://www.linkedin.com/in/yongjin-huang-b95558107/",
+      "leetcode": "https://leetcode.cn/u/kerojin/"
+    }
   },
   "skills": {
     "title": "技能特长",
@@ -130,9 +135,6 @@
     "period": "2013 年 8 月 - 2017 年 6 月"
   },
   "footer": {
-    "name": "黄勇进",
-    "github": "https://github.com/YongjinHuang",
-    "linkedin": "https://www.linkedin.com/in/yongjin-huang-b95558107/",
-    "leetcode": "https://leetcode.cn/u/kerojin/"
+    "name": "黄勇进"
   }
 }
